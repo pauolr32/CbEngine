@@ -36,7 +36,7 @@ namespace cp::render
 
 	bool IWindow::init()
 	{
-		WNDCLASSEX wc;
+		WNDCLASSEX wc{};
 		wc.cbClsExtra = NULL;
 		wc.cbSize = sizeof(WNDCLASSEX);
 		wc.cbWndExtra = NULL;

@@ -1,6 +1,6 @@
-#ifndef C_CB_ENGINE_H
-#define C_CB_ENGINE_H
+#ifndef CP_ENGINE_C_ENGINE_H
+#define CP_ENGINE_C_ENGINE_H
 
 void Initialise();
 
-#endif //!< C_CB_ENGINE_H
+#endif //!< CP_ENGINE_C_ENGINE_H

@@ -14,13 +14,13 @@ include_directories(
 	"${CMAKE_CURRENT_LIST_DIR}/src/render"
 )
 
-add_library(CpEngine STATIC ${ENGINE_SOURCE})
+add_library(CpEngine SHARED ${ENGINE_SOURCE})
 
-file(GLOB_RECURSE TESTING_SOURCE
+file(GLOB_RECURSE PROGRAM_SOURCE
 	"${CMAKE_CURRENT_LIST_DIR}/projects/*.h"
 	"${CMAKE_CURRENT_LIST_DIR}/projects/*.cpp"
 )
-add_executable(program ${TESTING_SOURCE})
+add_executable(program ${PROGRAM_SOURCE})
 
 target_link_libraries(program
 	CpEngine

@@ -1,6 +1,7 @@
-#ifndef CP_C_APP_WINDOW_H
-#define CP_C_APP_WINDOW_H
+#ifndef CP_ENGINE_C_APP_WINDOW_H
+#define CP_ENGINE_C_APP_WINDOW_H
 
+#include "Core.h"
 #include "IWindow.h"
 
 namespace cp::render
